@@ -1,4 +1,4 @@
-# encoding: utf-8
+﻿# encoding: utf-8
 
 from asyncore import dispatcher
 from asynchat import async_chat
@@ -180,6 +180,7 @@ class ChatServer(dispatcher):
 
     def handle_accept(self):
 		conn, addr = self.accept()
+		print addr
 		ChatSession(self, conn)
 
 if __name__ == '__main__':
