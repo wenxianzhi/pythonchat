@@ -5,6 +5,7 @@ from asynchat import async_chat
 import socket, asyncore
 
 PORT = 6666 #端口
+# Edited by Wenxianzhi
 
 class EndSession(Exception):
     """
