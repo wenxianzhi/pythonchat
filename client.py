@@ -1,12 +1,14 @@
 # encoding: utf-8
 
-import wx
 # 看这个应该是telnet协议吧
 import telnetlib
 from time import sleep
 import thread
 
+import wx
+
 # 哦我搞忘了，class的名括号内接收的参数是继承的意思
+#just a test.
 class LoginFrame(wx.Frame):
     """
     登录窗口
